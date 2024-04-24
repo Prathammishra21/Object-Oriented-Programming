@@ -1,0 +1,14 @@
+/*
+Types of polymorphism
+1.Compile time polymorphism(Acheived through method overloading)
+Same name but types,arguements,return types ,ordering can be different.
+eg-multiple constructors
+       
+        A a = new A();
+        A a2 = new A(1,2);
+
+2.Runtime Polymorphism or Dynamic Polymorphism(Acheived by method overriding)
+having same name and same arguements ,return types same as parent class.
+           (DYNAMIC METHOD DISPATCH)
+    Determines which method to run at runtime which depends on which type of object is created.
+    

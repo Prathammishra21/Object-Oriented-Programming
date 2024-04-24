@@ -1,0 +1,3 @@
+/* Wrapping up the implemetation of data members like variiables and methods in a class.*/
+/*It hides the data into an entity so that can be protected from the outside world.
+/* It is a subprocess in data hiding. */
