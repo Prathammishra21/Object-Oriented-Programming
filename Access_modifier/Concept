@@ -1,0 +1,89 @@
+                                             Access Modifiers
+
+*) Java access modifiers are used to specify the scope of the variables, data members, methods, classes or constructors.
+These help to restrict and secure the access of the data.
+
+*) There are four different types of access modifiers in java which are as follows-:
+
+1)Default (No keyword required)
+2)Private
+3)Public
+4)Protected
+
+                                          Default Access Modifier
+
+*) Default access modifier means we do not explicitly declare an access modifier for a class, field, method, etc.
+
+*) A variable method declared without any access control modifier is available to any other class in the same package.
+The fields in an interface are implicitly public static final and the methods in an interface are by default public.
+
+For eg-:
+            String version = "1.5.1";
+            boolean processOrder() {
+               return true;
+            }
+
+                                          Private Access Modifier
+
+*) Methods, variables and constructors that are declared private can only be accessed within the declared class itself.
+Private access modifier is the most restrictive access level. Class and interfaces cannot be private.
+
+*) Variables that are declared private can be accessed outside the class if public getter methods are present int he
+class. Using the private modifier is the main way that an object encapsulates its data from outside the world.
+
+                                        ***Example in Questions***
+
+
+                                         Protected Access Modifier
+
+*) Variables, methods and constructors which are declared protected in a superclass can be accessed only by the
+subclasses in other packages or any class within the package of the protected members class.
+
+*) The protected access modifier cant be applied to class and interfaces. Methods, fields can be declared protected,
+however methods and fields in a interface cant be declared protected.
+
+*) Protected access gives the subclass a chance to use the helper method or variable, while preventing a non-related
+class from trying to use it.
+
+                                       ***Example in Questions***
+
+
+                                         Public Access Modifier
+
+*) A class, method, constructor, interface etc. declared public can be accessed from any other class. Fields, methods,
+blocks declared inside a public class can be accessed from any class belonging to java universe.
+
+*) However, if the public class we are trying to access which is in different package then the public class still needs
+to get imported. Only because of the inheritance, all public methods and variables of a class are inherited by its
+subclass.
+
+                                        ***Example in Questions***
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

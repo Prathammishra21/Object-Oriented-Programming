@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Questions;
 
 class Calculation {
     int c;

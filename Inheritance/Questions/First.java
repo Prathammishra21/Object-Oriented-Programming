@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Questions;
 
 public class First {
     public void printFirst(){

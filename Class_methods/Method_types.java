@@ -1,6 +1,6 @@
 package Class_methods;
 public class Method_types {
-   static void fun1(){
+   public void fun1(){
        System.out.println("The boy is enjoying his life");
    }
 
@@ -9,8 +9,8 @@ public class Method_types {
    }
 
     public static void main(String[] args) {
-        fun1();
-        Method_types Mt = new Method_types();
-        Mt.fun2();
+       Method_types mt = new Method_types();
+        mt.fun1();
+        mt.fun2();
     }
 }

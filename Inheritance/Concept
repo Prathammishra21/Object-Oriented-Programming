@@ -1,0 +1,46 @@
+Inheritance is an important concept of OOPs. It is a process where one class acquires the properties (methods and
+attributes) of another. With the use of inheritance, the information is made manageable in a hierarchical order.
+
+The class which inherits the properties of other is called subclass(derived class, child class) and the class whose
+properties are inherited is known as superclass.
+
+*) Need of Inheritance :-
+
+1]Code re-usability -  The basic need of an inheritance is to reuse the features. If you have defined some functionality
+                       once, by using the inheritance you can easily use them in other classes and packages.
+
+2]Implantation of method overriding - Inheritance is required to achieve one of the concepts of Polymorphism which is
+                                      Method overriding.
+
+3]Achieving Abstraction - Another concept of OOPs that is abstraction also needs inheritance.
+
+*) Implementation of Java Inheritance :-
+
+To implement inheritance in java, the extend keyword is used. It inherits the properties (attributes and methods)
+of the base class to the derived class. The word "extends" means to extends functionalities and features of the sub
+class.
+
+Consider the below syntax to implement (use) inheritance in Java:
+
+class Super {
+   .....
+   .....
+}
+class Sub extends Super {
+   .....
+   .....
+}
+
+*) Inheritance: The super Keyword
+
+The super keyword is similar to this keyword. Following are the scenarios where the super keyword is used.
+
+It is used to differentiate the members of superclass from the members of subclass, if they have same names.It is used
+to invoke the superclass constructor from subclass.
+
+Differentiating the Members
+If a class is inheriting the properties of another class. And if the members of the superclass have the names same as
+the sub class, to differentiate these variables we use super keyword as shown below.
+
+super.variable
+super.method();

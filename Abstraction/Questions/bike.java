@@ -1,4 +1,4 @@
-package Abstraction;
+package Abstraction.Questions;
 
 abstract class bike {
     public abstract void name();
@@ -7,17 +7,17 @@ abstract class bike {
     }
 }
 
-class Gixxer extends bike{
+class Hayabusa extends bike{
     public void name(){
-        System.out.println("I have a gixxer bike ...");
+        System.out.println("I have a Hayabusa ...");
     }
 }
 
 class Main_01 {
     public static void main(String[] args) {
-        Gixxer gxr = new Gixxer();
-        gxr.name();
-        gxr.speed();
+      Hayabusa hayabusa = new Hayabusa();
+      hayabusa.speed();
+      hayabusa.name();
     }
 }
 

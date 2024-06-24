@@ -1,4 +1,4 @@
-package Inheritance;
+package Inheritance.Questions;
 
 class Animal {
 public void dog(){
